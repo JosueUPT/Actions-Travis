@@ -1,5 +1,9 @@
 # Actions-Travis
 
+[English](#english) | [Español](#español)
+
+# Español
+
 Este proyecto es una demostración de integración continua usando GitHub Actions y Travis CI con una aplicación simple de Node.js.
 
 ## Funcionalidades
@@ -70,3 +74,78 @@ actions-travis/
 - `.github/workflows/ci.yml`: Pipeline de integración continua con GitHub Actions
 - `.travis.yml`: Configuración para la integración continua con Travis CI
 - `package.json`: Gestión de dependencias y scripts de npm
+
+---
+
+# English
+
+This project is a demonstration of continuous integration using GitHub Actions and Travis CI with a simple Node.js application.
+
+## Features
+
+- Simple addition function
+- Unit testing with Jest
+- Continuous integration with GitHub Actions
+- Continuous integration with Travis CI
+
+## Technologies Used
+
+- Node.js
+- Jest (for testing)
+- GitHub Actions
+- Travis CI
+
+## Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (included with Node.js)
+- Git
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/actions-travis.git
+   cd actions-travis
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Run the application:
+   ```bash
+   npm start
+   ```
+
+2. Run tests:
+   ```bash
+   npm test
+   ```
+
+## Project Structure
+
+```
+actions-travis/
+├── .github/
+│   └── workflows/
+│       └── ci.yml          # GitHub Actions configuration
+├── tests/
+│   └── app.test.js        # Unit tests
+├── app.js                 # Main application file
+├── package.json          # Dependencies and scripts
+├── package-lock.json     # Specific dependency versions
+├── .travis.yml          # Travis CI configuration
+└── README.md            # Project documentation
+```
+
+### File Description
+
+- `app.js`: Contains the main application logic
+- `tests/app.test.js`: Unit tests using Jest
+- `.github/workflows/ci.yml`: Continuous integration pipeline with GitHub Actions
+- `.travis.yml`: Travis CI configuration
+- `package.json`: npm dependencies and scripts management
