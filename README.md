@@ -30,7 +30,7 @@ Este proyecto es una demostración de integración continua usando GitHub Action
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/actions-travis.git
+   git clone https://github.com/JosueUPT/Actions-Travis.git
    cd actions-travis
    ```
 
@@ -105,7 +105,7 @@ This project is a demonstration of continuous integration using GitHub Actions a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/actions-travis.git
+   git clone https://github.com/JosueUPT/Actions-Travis.git
    cd actions-travis
    ```
 
